@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0F9096761FA314AD00A80C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096751FA314AD00A80C26 /* AppDelegate.swift */; };
-		0F9096781FA314AE00A80C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096771FA314AE00A80C26 /* ViewController.swift */; };
+		0F9096781FA314AE00A80C26 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096771FA314AE00A80C26 /* ItemListViewController.swift */; };
 		0F90967B1FA314AE00A80C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9096791FA314AE00A80C26 /* Main.storyboard */; };
 		0F90967D1FA314AE00A80C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F90967C1FA314AE00A80C26 /* Assets.xcassets */; };
 		0F9096801FA314AE00A80C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F90967E1FA314AE00A80C26 /* LaunchScreen.storyboard */; };
 		0F90968B1FA314AE00A80C26 /* StorageCoordinatorsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90968A1FA314AE00A80C26 /* StorageCoordinatorsExampleTests.swift */; };
+		0F90969C1FA31C5F00A80C26 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096961FA31C5F00A80C26 /* Serializable.swift */; };
+		0F90969D1FA31C5F00A80C26 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096971FA31C5F00A80C26 /* Serializer.swift */; };
+		0F90969E1FA31C5F00A80C26 /* PlistStorageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096981FA31C5F00A80C26 /* PlistStorageCoordinator.swift */; };
+		0F90969F1FA31C5F00A80C26 /* StorageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096991FA31C5F00A80C26 /* StorageCoordinator.swift */; };
+		0F9096A01FA31C5F00A80C26 /* UserDefaultsStorageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90969A1FA31C5F00A80C26 /* UserDefaultsStorageCoordinator.swift */; };
+		0F9096A11FA31C5F00A80C26 /* InMemorySorageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90969B1FA31C5F00A80C26 /* InMemorySorageCoordinator.swift */; };
+		0F9096A31FA3205100A80C26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9096A21FA3205100A80C26 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +35,7 @@
 /* Begin PBXFileReference section */
 		0F9096721FA314AD00A80C26 /* StorageCoordinatorsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageCoordinatorsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9096751FA314AD00A80C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F9096771FA314AE00A80C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F9096771FA314AE00A80C26 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		0F90967A1FA314AE00A80C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F90967C1FA314AE00A80C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F90967F1FA314AE00A80C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +43,13 @@
 		0F9096861FA314AE00A80C26 /* StorageCoordinatorsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageCoordinatorsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F90968A1FA314AE00A80C26 /* StorageCoordinatorsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageCoordinatorsExampleTests.swift; sourceTree = "<group>"; };
 		0F90968C1FA314AE00A80C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F9096961FA31C5F00A80C26 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		0F9096971FA31C5F00A80C26 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		0F9096981FA31C5F00A80C26 /* PlistStorageCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistStorageCoordinator.swift; sourceTree = "<group>"; };
+		0F9096991FA31C5F00A80C26 /* StorageCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageCoordinator.swift; sourceTree = "<group>"; };
+		0F90969A1FA31C5F00A80C26 /* UserDefaultsStorageCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorageCoordinator.swift; sourceTree = "<group>"; };
+		0F90969B1FA31C5F00A80C26 /* InMemorySorageCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemorySorageCoordinator.swift; sourceTree = "<group>"; };
+		0F9096A21FA3205100A80C26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +91,10 @@
 		0F9096741FA314AD00A80C26 /* StorageCoordinatorsExample */ = {
 			isa = PBXGroup;
 			children = (
+				0F9096951FA31C5F00A80C26 /* Storages */,
+				0F9096A41FA3206200A80C26 /* Model */,
 				0F9096751FA314AD00A80C26 /* AppDelegate.swift */,
-				0F9096771FA314AE00A80C26 /* ViewController.swift */,
+				0F9096771FA314AE00A80C26 /* ItemListViewController.swift */,
 				0F9096791FA314AE00A80C26 /* Main.storyboard */,
 				0F90967C1FA314AE00A80C26 /* Assets.xcassets */,
 				0F90967E1FA314AE00A80C26 /* LaunchScreen.storyboard */,
@@ -94,6 +110,27 @@
 				0F90968C1FA314AE00A80C26 /* Info.plist */,
 			);
 			path = StorageCoordinatorsExampleTests;
+			sourceTree = "<group>";
+		};
+		0F9096951FA31C5F00A80C26 /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				0F9096961FA31C5F00A80C26 /* Serializable.swift */,
+				0F9096971FA31C5F00A80C26 /* Serializer.swift */,
+				0F9096981FA31C5F00A80C26 /* PlistStorageCoordinator.swift */,
+				0F9096991FA31C5F00A80C26 /* StorageCoordinator.swift */,
+				0F90969A1FA31C5F00A80C26 /* UserDefaultsStorageCoordinator.swift */,
+				0F90969B1FA31C5F00A80C26 /* InMemorySorageCoordinator.swift */,
+			);
+			path = Storages;
+			sourceTree = "<group>";
+		};
+		0F9096A41FA3206200A80C26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F9096A21FA3205100A80C26 /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9096781FA314AE00A80C26 /* ViewController.swift in Sources */,
+				0F90969C1FA31C5F00A80C26 /* Serializable.swift in Sources */,
+				0F9096A31FA3205100A80C26 /* Item.swift in Sources */,
+				0F9096781FA314AE00A80C26 /* ItemListViewController.swift in Sources */,
+				0F90969D1FA31C5F00A80C26 /* Serializer.swift in Sources */,
+				0F90969E1FA31C5F00A80C26 /* PlistStorageCoordinator.swift in Sources */,
+				0F9096A01FA31C5F00A80C26 /* UserDefaultsStorageCoordinator.swift in Sources */,
+				0F90969F1FA31C5F00A80C26 /* StorageCoordinator.swift in Sources */,
 				0F9096761FA314AD00A80C26 /* AppDelegate.swift in Sources */,
+				0F9096A11FA31C5F00A80C26 /* InMemorySorageCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
